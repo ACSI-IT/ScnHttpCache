@@ -12,8 +12,5 @@ return array(
         'factories' => array(
             'esi' => 'ScnHttpCache\Service\EsiViewHelperFactory',
         ),
-        'shared' => array(
-            'esi' => false,
-        ),
     ),
 );
